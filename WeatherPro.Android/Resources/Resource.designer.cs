@@ -17338,7 +17338,7 @@ namespace WeatherPro.Droid
 			public const int ic_vol_type_tv_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int menu = 2131165468;
+			public const int location = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
 			public const int mr_button_connected_dark = 2131165469;

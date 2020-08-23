@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/WeatherPro.UnitTest.csproj": {}
+  },
+  "projects": {
+    "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
+        "projectName": "WeatherPro.Core",
+        "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kushal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
+                "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/WeatherPro.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/WeatherPro.UnitTest.csproj",
+        "projectName": "WeatherPro.UnitTest",
+        "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/WeatherPro.UnitTest.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kushal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
+                "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj"
+              },
+              "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
+                "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "MvvmCross.Tests": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj",
+        "projectName": "WeatherPro",
+        "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kushal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
