@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+KzXahepvTV6NvDEcK1nKhN/AZyC9H2T56Y1i0NTl1xw6nHoldzfmjfSd8af73w/ynCe5d63zdBWbNd5/MBUKg==",
+  "success": true,
+  "projectFilePath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.iOS/WeatherPro.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/kushal/.nuget/packages/mvvmcross/7.0.0/mvvmcross.7.0.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/mvvmcross.forms/7.0.0/mvvmcross.forms.7.0.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/xamarin.testcloud.agent/0.21.9/xamarin.testcloud.agent.0.21.9.nupkg.sha512"
+  ],
+  "logs": []
+}
