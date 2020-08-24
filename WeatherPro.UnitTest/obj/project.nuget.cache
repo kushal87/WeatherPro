@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7xlawbd146d+ElgNrJ/dubDECxKZgpwPPQ+feFrMllZqfpHV9QqYjRufz13kiPUvxxansB1ToQqVZc5i54jUxg==",
+  "dgSpecHash": "ZOFFeNC1H0sZnu8W8vsK9t4WwSVa+O7IzKHDO6FTy46SoL10BNxks/2XKOhos6ZHlf4OMq/gQYwYK567+ds3dw==",
   "success": true,
   "projectFilePath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/WeatherPro.UnitTest.csproj",
   "expectedPackageFiles": [
+    "/Users/kushal/.nuget/packages/autofixture/4.13.0/autofixture.4.13.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/fare/2.1.1/fare.2.1.1.nupkg.sha512",
     "/Users/kushal/.nuget/packages/microsoft.codecoverage/16.4.0/microsoft.codecoverage.16.4.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/microsoft.net.test.sdk/16.4.0/microsoft.net.test.sdk.16.4.0.nupkg.sha512",
@@ -29,6 +31,7 @@
     "/Users/kushal/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.collections.specialized/4.3.0/system.collections.specialized.4.3.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/system.componentmodel.annotations/4.3.0/system.componentmodel.annotations.4.3.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.componentmodel.eventbasedasync/4.3.0/system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.componentmodel.primitives/4.3.0/system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.componentmodel.typeconverter/4.3.0/system.componentmodel.typeconverter.4.3.0.nupkg.sha512",

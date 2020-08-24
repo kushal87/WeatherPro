@@ -30,6 +30,22 @@ namespace WeatherPro.Core.ViewModels
             }
         }
 
+
+        private string _pickerDefaultTitle;
+        public String PickerDefaultTitle
+        {
+            get { return _pickerDefaultTitle; }
+
+            set
+            {
+                _pickerDefaultTitle = value;
+                if (_pickerDefaultTitle == null)
+                    return;
+
+                RaisePropertyChanged(() => PickerDefaultTitle);
+            }
+        }
+
         private Weather _weather;
         public Weather Weather
         {
@@ -55,25 +71,31 @@ namespace WeatherPro.Core.ViewModels
         MvxCommand _currentLocationCommand;
         public MvxCommand CurrentLocationCommand
         {
-            get => new MvxCommand(DisplayCurrentLocationWeatherAsync);
+            get => new MvxCommand(CurrentLocationButtonClicked);
 
             set => _currentLocationCommand = value;
         }
 
+        public void CurrentLocationButtonClicked() {
+            SelectedCityName = "Select City Name";
+            DisplayCurrentLocationWeatherAsync();
+        }
+
         Placemark placemark = new Placemark();
-        private ILocationService LocationService { get; }
-        private IWeatherService WeatherService { get; }
+        private ILocationService _locationService { get; }
+        private IWeatherService _weatherService { get; }
                 
         public MainViewModel(IWeatherService weatherService, ILocationService locationService)
         {
-            LocationService = locationService;
-            WeatherService = weatherService;
-            CityList = WeatherService.GetCities();
+            _locationService = locationService;
+            _weatherService = weatherService;
+            CityList = _weatherService.GetCities();
         }
 
         public override void ViewAppeared()
         {
             base.ViewAppeared();
+            PickerDefaultTitle = "Select City Name";
             DisplayCurrentLocationWeatherAsync();         
         }
 
@@ -81,8 +103,8 @@ namespace WeatherPro.Core.ViewModels
         {
             try
             {
-                var location = await LocationService.GetCurrentLocationAsync();
-                Placemark placemark = await LocationService.GetCityNameAsync(location);
+                var location = await _locationService.GetCurrentLocationAsync();
+                Placemark placemark = await _locationService.GetCityNameAsync(location);
                 DisplayCityWeatherAsync(placemark);
             }
             catch (Exception ex)
@@ -96,7 +118,7 @@ namespace WeatherPro.Core.ViewModels
             if (placemark != null)
             {
                 ShowLoading = true;
-                var result = await WeatherService.GetWeatherInfoAsync(placemark);
+                var result = await _weatherService.GetWeatherInfoAsync(placemark);
                 ShowLoading = false;
 
                 if (result.Sucessful)

@@ -22,7 +22,7 @@
 
             <StackLayout Orientation="Horizontal" Spacing="10" Padding="5" HorizontalOptions="StartAndExpand">
                 <ImageButton Source="location.png" Margin="5" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start" VerticalOptions="Center" Background="{x:Null}" BackgroundColor="Transparent" Command="{Binding CurrentLocationCommand}"/>
-                <Picker WidthRequest="340" SelectedItem="{Binding SelectedCityName}" Title="Select city name" ItemsSource="{Binding CityList}" HorizontalTextAlignment="Center" />
+                <Picker WidthRequest="340" SelectedItem="{Binding SelectedCityName}" Title="{Binding PickerDefaultTitle}" ItemsSource="{Binding CityList}" HorizontalTextAlignment="Center" />
             </StackLayout>  
 
             <ActivityIndicator Grid.RowSpan="2" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="{Binding ShowLoading}"

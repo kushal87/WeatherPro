@@ -4886,7 +4886,7 @@ public final class R {
     public static final int ic_vol_type_speaker_light=0x7f070119;
     public static final int ic_vol_type_tv_dark=0x7f07011a;
     public static final int ic_vol_type_tv_light=0x7f07011b;
-    public static final int menu=0x7f07011c;
+    public static final int location=0x7f07011c;
     public static final int mr_button_connected_dark=0x7f07011d;
     public static final int mr_button_connected_light=0x7f07011e;
     public static final int mr_button_connecting_dark=0x7f07011f;

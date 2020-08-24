@@ -16,7 +16,6 @@
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/bin/Debug/netstandard2.0/WeatherPro.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/bin/Debug/netstandard2.0/ref/WeatherPro.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/bin/Debug/netstandard2.0/WeatherPro.pdb
-/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.csprojAssemblyReference.cache
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.AssemblyInfoInputs.cache

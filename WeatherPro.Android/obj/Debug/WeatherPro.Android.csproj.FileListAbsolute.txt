@@ -693,13 +693,13 @@
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/w01n.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/w01d.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/overlay.png
-/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/menu.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/humidity.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/gauge.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/cloudiness.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/cloud.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/bg.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/add.png
+/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/res/drawable/location.png
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/uploadflags.txt
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/resolvedassemblies.hash
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Android/obj/Debug/android/assets/FormsViewGroup.dll
