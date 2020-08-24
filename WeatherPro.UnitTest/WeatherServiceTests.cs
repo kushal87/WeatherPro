@@ -34,9 +34,13 @@ namespace WeatherPro.UnitTest
                 CountryName = "India"
             };
 
-            var exp = _weatherService.Setup(x => x.GetWeatherInfoAsync(placemark)).ReturnsAsync(new WeatherResponse());
+            var weatherservice = _weatherService.Object;
 
-            Assert.IsNotNull(exp);
+            var exp = weatherservice.GetWeatherInfoAsync(placemark);
+            Assert.IsNotNull(exp.AsyncState);
+            
+            //var exp = _weatherService.Setup(x => x.GetWeatherInfoAsync(placemark)).ReturnsAsync(new WeatherResponse());
+            //Assert.IsNotNull(exp);
         }
 
 
