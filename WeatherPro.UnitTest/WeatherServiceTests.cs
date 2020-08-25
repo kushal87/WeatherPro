@@ -1,6 +1,5 @@
 ﻿using MvvmCross.Tests;
 using NUnit.Framework;
-using WeatherPro.Core.ViewModels;
 using WeatherPro.Core.Services;
 using Xamarin.Essentials;
 using Moq;
@@ -8,17 +7,15 @@ using Moq;
 namespace WeatherPro.UnitTest
 {
     public class WeatherServiceTest: MvxIoCSupportingTest
-    {
-
-        private MainViewModel _mainViewModel;
+    {        
         private Mock<IWeatherService> _weatherService;
                         
         [SetUp]
         public void init()
         {
             base.ClearAll();
-             _weatherService = new Mock<IWeatherService>();                        
-            Ioc.RegisterSingleton<IWeatherService>(_weatherService.Object);            
+            _weatherService = new Mock<IWeatherService>();
+            Ioc.RegisterSingleton<IWeatherService>(_weatherService.Object);
         }
 
 
