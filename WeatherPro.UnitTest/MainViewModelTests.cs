@@ -3,7 +3,6 @@ using WeatherPro.Core.ViewModels;
 using WeatherPro.Core.Services;
 using Moq;
 using MvvmCross.Tests;
-using AutoFixture;
 using Xamarin.Essentials;
 
 
@@ -15,13 +14,7 @@ namespace WeatherPro.UnitTest
         private MainViewModel _mainViewModel;
         private Mock<IWeatherService> _weatherService;
         private Mock<ILocationService> _locationService;
-
-        readonly Fixture _fixture;
-        public MainViewModelTests()
-        {
-            _fixture = new Fixture();
-        }
-
+        
 
         MainViewModel mainViewModel => new MainViewModel(_weatherService.Object, _locationService.Object);
 
@@ -54,9 +47,6 @@ namespace WeatherPro.UnitTest
             var exp = _locationService.Setup(x => x.GetCurrentLocationAsync()).ReturnsAsync(location);
 
             Assert.IsNotNull(exp);
-
         }
-
     }
-
 }

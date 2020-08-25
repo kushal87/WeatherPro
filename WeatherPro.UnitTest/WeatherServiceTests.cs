@@ -12,16 +12,13 @@ namespace WeatherPro.UnitTest
 
         private MainViewModel _mainViewModel;
         private Mock<IWeatherService> _weatherService;
-        private Mock<ILocationService> _locationService;
-                
+                        
         [SetUp]
         public void init()
         {
             base.ClearAll();
-             _weatherService = new Mock<IWeatherService>();            
-            _locationService = new Mock<ILocationService>();
-            Ioc.RegisterSingleton<IWeatherService>(_weatherService.Object);
-            Ioc.RegisterSingleton<ILocationService>(_locationService.Object);
+             _weatherService = new Mock<IWeatherService>();                        
+            Ioc.RegisterSingleton<IWeatherService>(_weatherService.Object);            
         }
 
 
