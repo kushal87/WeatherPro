@@ -25,3 +25,4 @@
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/ref/WeatherPro.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.pdb
+/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.csprojAssemblyReference.cache

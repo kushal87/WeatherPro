@@ -108,3 +108,5 @@
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/obj/Debug/netcoreapp3.1/WeatherPro.UnitTest.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/obj/Debug/netcoreapp3.1/WeatherPro.UnitTest.pdb
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/obj/Debug/netcoreapp3.1/WeatherPro.UnitTest.genruntimeconfig.cache
+/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/bin/Debug/netcoreapp3.1/AutoFixture.dll
+/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.UnitTest/bin/Debug/netcoreapp3.1/Fare.dll
