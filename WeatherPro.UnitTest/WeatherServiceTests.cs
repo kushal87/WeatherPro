@@ -33,45 +33,36 @@ namespace WeatherPro.UnitTest
                 Locality = "Pune",
                 CountryName = "India"
             };
-
-            var weatherservice = _weatherService.Object;
-
-            var exp = weatherservice.GetWeatherInfoAsync(placemark);
-            Assert.IsNotNull(exp.AsyncState);
-            
-            //var exp = _weatherService.Setup(x => x.GetWeatherInfoAsync(placemark)).ReturnsAsync(new WeatherResponse());
-            //Assert.IsNotNull(exp);
+           
+            var exp = _weatherService.Object.GetWeatherInfoAsync(placemark);
+            Assert.IsNotNull(exp.AsyncState);  
         }
 
 
         [Test]
         public void GetCities_WhenCalled_ItShouldNotBeNull()
         {
-            var weatherService = new WeatherService();
-            var Cities = weatherService.GetCities();
+            var Cities = _weatherService.Object.GetCities();
             Assert.IsNotNull(Cities);
         }
 
         [Test]
         public void GetCities_WhenCalled_CountShouldGreaterThanZero()
         {
-            var weatherService = new WeatherService();
-            var Cities = weatherService.GetCities();
+            var Cities = _weatherService.Object.GetCities();
             Assert.Greater(Cities.Count, 0);
         }
 
         [Test]
         public async System.Threading.Tasks.Task GetWeatherInfoAsync_WhenCalled_ItShouldGetSucessResult()
         {
-            var weatherService = new WeatherService();
-
             Placemark placemark = new Placemark
             {
                 Locality = "Pimpri-Chinchwad",
                 CountryName = "India"
             };
 
-            var result = await weatherService.GetWeatherInfoAsync(placemark);
+            var result = await _weatherService.Object.GetWeatherInfoAsync(placemark);
             Assert.IsTrue(result.Sucessful);
         }
     }

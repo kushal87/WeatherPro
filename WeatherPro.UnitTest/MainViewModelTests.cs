@@ -41,7 +41,7 @@ namespace WeatherPro.UnitTest
 
         }
 
-        [Test]//RaisePropertyChanged
+        [Test]
         public void GetCurruntLocation_WhenCalled_LocationShouldNotNull()
         {
             // Arrange
