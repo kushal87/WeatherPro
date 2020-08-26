@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MvvmCross/7.0.0": {
+      "MvvmCross/6.4.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/MvvmCross.dll": {}
@@ -20,11 +20,11 @@
           "lib/netstandard2.0/MvvmCross.dll": {}
         }
       },
-      "MvvmCross.Forms/7.0.0": {
+      "MvvmCross.Forms/6.4.2": {
         "type": "package",
         "dependencies": {
-          "MvvmCross": "7.0.0",
-          "Xamarin.Forms": "4.6.0.847"
+          "MvvmCross": "6.4.2",
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
           "lib/netstandard2.0/MvvmCross.Forms.dll": {}
@@ -104,21 +104,29 @@
         "runtime.json"
       ]
     },
-    "MvvmCross/7.0.0": {
-      "sha512": "+3VkfvovtCTdyzf2fRH9NnLBk2Ytu/3o/k4RqbhEaepiw7c8vrjATp4Q9GP2u8Kl8rSBVywWIPyqjNLcgITaWQ==",
+    "MvvmCross/6.4.2": {
+      "sha512": "ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
       "type": "package",
-      "path": "mvvmcross/7.0.0",
+      "path": "mvvmcross/6.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "icon.png",
         "lib/monoandroid10.0/MvvmCross.dll",
         "lib/monoandroid10.0/MvvmCross.pdb",
         "lib/monoandroid10.0/MvvmCross.xml",
+        "lib/monoandroid90/MvvmCross.dll",
+        "lib/monoandroid90/MvvmCross.pdb",
+        "lib/monoandroid90/MvvmCross.xml",
         "lib/net461/MvvmCross.dll",
         "lib/net461/MvvmCross.pdb",
         "lib/net461/MvvmCross.xml",
+        "lib/netcoreapp2.1/MvvmCross.dll",
+        "lib/netcoreapp2.1/MvvmCross.pdb",
+        "lib/netcoreapp2.1/MvvmCross.xml",
+        "lib/netcoreapp3.0/MvvmCross.dll",
+        "lib/netcoreapp3.0/MvvmCross.pdb",
+        "lib/netcoreapp3.0/MvvmCross.xml",
         "lib/netcoreapp3.1/MvvmCross.dll",
         "lib/netcoreapp3.1/MvvmCross.pdb",
         "lib/netcoreapp3.1/MvvmCross.xml",
@@ -144,26 +152,31 @@
         "lib/xamarinwatchos10/MvvmCross.dll",
         "lib/xamarinwatchos10/MvvmCross.pdb",
         "lib/xamarinwatchos10/MvvmCross.xml",
-        "mvvmcross.7.0.0.nupkg.sha512",
+        "mvvmcross.6.4.2.nupkg.sha512",
         "mvvmcross.nuspec",
         "readme.txt"
       ]
     },
-    "MvvmCross.Forms/7.0.0": {
-      "sha512": "GDLrd+W/iwmEJJ/4P7Gsqani2j5gt3EPrEBRYVlKg51cv+DBds5tO2AAPLuRz6tSj2Vk52hHscO7qiMNBk4iVg==",
+    "MvvmCross.Forms/6.4.2": {
+      "sha512": "P4+7W7bsrZNNct2tT7d1t/mpYoN54zirjtHo6dK81Ge7bLuiHS0+EBd9kpSX/LnwIMHM+jkI+MMigd1XThVlYw==",
       "type": "package",
-      "path": "mvvmcross.forms/7.0.0",
+      "path": "mvvmcross.forms/6.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "icon.png",
         "lib/monoandroid10.0/MvvmCross.Forms.dll",
         "lib/monoandroid10.0/MvvmCross.Forms.pdb",
         "lib/monoandroid10.0/MvvmCross.Forms.xml",
+        "lib/monoandroid90/MvvmCross.Forms.dll",
+        "lib/monoandroid90/MvvmCross.Forms.pdb",
+        "lib/monoandroid90/MvvmCross.Forms.xml",
         "lib/net461/MvvmCross.Forms.dll",
         "lib/net461/MvvmCross.Forms.pdb",
         "lib/net461/MvvmCross.Forms.xml",
+        "lib/netcoreapp3.0/MvvmCross.Forms.dll",
+        "lib/netcoreapp3.0/MvvmCross.Forms.pdb",
+        "lib/netcoreapp3.0/MvvmCross.Forms.xml",
         "lib/netcoreapp3.1/MvvmCross.Forms.dll",
         "lib/netcoreapp3.1/MvvmCross.Forms.pdb",
         "lib/netcoreapp3.1/MvvmCross.Forms.xml",
@@ -183,7 +196,7 @@
         "lib/xamarinmac20/MvvmCross.Forms.dll",
         "lib/xamarinmac20/MvvmCross.Forms.pdb",
         "lib/xamarinmac20/MvvmCross.Forms.xml",
-        "mvvmcross.forms.7.0.0.nupkg.sha512",
+        "mvvmcross.forms.6.4.2.nupkg.sha512",
         "mvvmcross.forms.nuspec",
         "readme.txt"
       ]
@@ -729,7 +742,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "MvvmCross.Forms >= 7.0.0",
+      "MvvmCross.Forms >= 6.4.2",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1269"
@@ -772,7 +785,7 @@
         "dependencies": {
           "MvvmCross.Forms": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[6.4.2, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

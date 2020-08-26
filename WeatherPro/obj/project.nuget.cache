@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dqOyFbnzwqtiWG1mf5NK5FfU54jE/FwRoWotS/3iwZfGusW7yZHAV9a7TP0SfYz9+m1+OUOtf8bkLG3bcOidyg==",
+  "dgSpecHash": "jSxGAikB79fGJATwocAUQ3PwfGn9+KnPN+68D+toE6BTMv4kKstGGubURBr/QuoWVyJv4FYzHJ4EVaj/0Ok2yw==",
   "success": true,
   "projectFilePath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj",
   "expectedPackageFiles": [
     "/Users/kushal/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/mvvmcross/7.0.0/mvvmcross.7.0.0.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/mvvmcross.forms/7.0.0/mvvmcross.forms.7.0.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/mvvmcross/6.4.2/mvvmcross.6.4.2.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/mvvmcross.forms/6.4.2/mvvmcross.forms.6.4.2.nupkg.sha512",
     "/Users/kushal/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/kushal/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/kushal/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",

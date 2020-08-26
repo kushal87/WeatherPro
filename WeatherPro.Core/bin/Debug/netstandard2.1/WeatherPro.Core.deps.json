@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "WeatherPro.Core/1.0.0": {
         "dependencies": {
-          "MvvmCross.Forms": "7.0.0",
+          "MvvmCross.Forms": "6.4.2",
           "Newtonsoft.Json": "12.0.3",
           "WeatherPro": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2"
@@ -18,23 +18,23 @@
           "WeatherPro.Core.dll": {}
         }
       },
-      "MvvmCross/7.0.0": {
+      "MvvmCross/6.4.2": {
         "runtime": {
           "lib/netstandard2.0/MvvmCross.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
           }
         }
       },
-      "MvvmCross.Forms/7.0.0": {
+      "MvvmCross.Forms/6.4.2": {
         "dependencies": {
-          "MvvmCross": "7.0.0",
+          "MvvmCross": "6.4.2",
           "Xamarin.Forms": "4.8.0.1269"
         },
         "runtime": {
           "lib/netstandard2.0/MvvmCross.Forms.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
           }
         }
       },
@@ -83,7 +83,7 @@
       },
       "WeatherPro/1.0.0": {
         "dependencies": {
-          "MvvmCross.Forms": "7.0.0",
+          "MvvmCross.Forms": "6.4.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1269"
         },
@@ -99,19 +99,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MvvmCross/7.0.0": {
+    "MvvmCross/6.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+3VkfvovtCTdyzf2fRH9NnLBk2Ytu/3o/k4RqbhEaepiw7c8vrjATp4Q9GP2u8Kl8rSBVywWIPyqjNLcgITaWQ==",
-      "path": "mvvmcross/7.0.0",
-      "hashPath": "mvvmcross.7.0.0.nupkg.sha512"
+      "sha512": "sha512-ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "path": "mvvmcross/6.4.2",
+      "hashPath": "mvvmcross.6.4.2.nupkg.sha512"
     },
-    "MvvmCross.Forms/7.0.0": {
+    "MvvmCross.Forms/6.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GDLrd+W/iwmEJJ/4P7Gsqani2j5gt3EPrEBRYVlKg51cv+DBds5tO2AAPLuRz6tSj2Vk52hHscO7qiMNBk4iVg==",
-      "path": "mvvmcross.forms/7.0.0",
-      "hashPath": "mvvmcross.forms.7.0.0.nupkg.sha512"
+      "sha512": "sha512-P4+7W7bsrZNNct2tT7d1t/mpYoN54zirjtHo6dK81Ge7bLuiHS0+EBd9kpSX/LnwIMHM+jkI+MMigd1XThVlYw==",
+      "path": "mvvmcross.forms/6.4.2",
+      "hashPath": "mvvmcross.forms.6.4.2.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",

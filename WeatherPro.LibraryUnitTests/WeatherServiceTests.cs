@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Tests;
 using NUnit.Framework;
 using Moq;
-using WeatherPro.Core;
+using WeatherPro;
 
 namespace WeatherPro.LibraryUnitTests
 {

@@ -42,7 +42,7 @@
           "dependencies": {
             "MvvmCross.Forms": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.4.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -109,7 +109,7 @@
           "dependencies": {
             "MvvmCross.Forms": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.4.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -172,7 +172,7 @@
           "dependencies": {
             "MvvmCross.Forms": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.4.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
