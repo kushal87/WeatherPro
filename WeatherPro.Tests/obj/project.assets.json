@@ -2402,12 +2402,11 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2441,12 +2440,11 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
+      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5093,19 +5091,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/kushal/.nuget/packages/": {}
+    "/Users/martin/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj",
+      "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj",
       "projectName": "WeatherPro.Tests",
-      "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj",
-      "packagesPath": "/Users/kushal/.nuget/packages/",
-      "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Tests/obj/",
+      "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj",
+      "packagesPath": "/Users/martin/.nuget/packages/",
+      "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/kushal/.config/NuGet/NuGet.Config"
+        "/Users/martin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5116,11 +5118,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
-              "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj"
+            "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj": {
+              "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj"
             },
-            "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
-              "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj"
+            "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
+              "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj"
             }
           }
         }

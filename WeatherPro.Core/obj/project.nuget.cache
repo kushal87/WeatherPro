@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "56/PzfAPp7tAh85Hl4k+GOIRa/H69mG6o/l1YLlVqRzcIJXJ2uma1oCb/BQVMsnAOIrNJNrPryCOj8+aIMgeFQ==",
+  "dgSpecHash": "xWYZ8R0LEP7y+r9BmtO0+xQD+heE2z+a3+XkN4KQXkEXx9oVCyvBX16ZFrqKVytq20YG2cvrcXqEc2PFIAiZTw==",
   "success": true,
-  "projectFilePath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
+  "projectFilePath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/kushal/.nuget/packages/mvvmcross/6.4.2/mvvmcross.6.4.2.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/mvvmcross.forms/6.4.2/mvvmcross.forms.6.4.2.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/kushal/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "/Users/martin/.nuget/packages/mvvmcross/6.4.2/mvvmcross.6.4.2.nupkg.sha512",
+    "/Users/martin/.nuget/packages/mvvmcross.forms/6.4.2/mvvmcross.forms.6.4.2.nupkg.sha512",
+    "/Users/martin/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/martin/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/martin/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/martin/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []
 }

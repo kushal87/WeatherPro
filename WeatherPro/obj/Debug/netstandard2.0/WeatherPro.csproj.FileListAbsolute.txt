@@ -26,3 +26,17 @@
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/ref/WeatherPro.dll
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.pdb
 /Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.csprojAssemblyReference.cache
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/bin/Debug/netstandard2.0/WeatherPro.deps.json
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/bin/Debug/netstandard2.0/WeatherPro.dll
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/bin/Debug/netstandard2.0/ref/WeatherPro.dll
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/bin/Debug/netstandard2.0/WeatherPro.pdb
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.csprojAssemblyReference.cache
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.AssemblyInfoInputs.cache
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.AssemblyInfo.cs
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.csproj.CoreCompileInputs.cache
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.dll
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/ref/WeatherPro.dll
+/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/Debug/netstandard2.0/WeatherPro.pdb

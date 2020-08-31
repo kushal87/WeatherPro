@@ -1373,20 +1373,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/kushal/.nuget/packages/": {}
+    "/Users/martin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.iOS/WeatherPro.iOS.csproj",
+      "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.iOS/WeatherPro.iOS.csproj",
       "projectName": "WeatherPro.iOS",
-      "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.iOS/WeatherPro.iOS.csproj",
-      "packagesPath": "/Users/kushal/.nuget/packages/",
-      "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.iOS/obj/",
+      "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.iOS/WeatherPro.iOS.csproj",
+      "packagesPath": "/Users/martin/.nuget/packages/",
+      "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/kushal/.config/NuGet/NuGet.Config"
+        "/Users/martin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1397,11 +1397,11 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
-              "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj"
+            "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj": {
+              "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj"
             },
-            "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
-              "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj"
+            "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
+              "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj"
             }
           }
         }

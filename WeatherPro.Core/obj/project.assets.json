@@ -641,19 +641,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/kushal/.nuget/packages/": {}
+    "/Users/martin/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
+      "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj",
       "projectName": "WeatherPro.Core",
-      "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
-      "packagesPath": "/Users/kushal/.nuget/packages/",
-      "outputPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro.Core/obj/",
+      "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj",
+      "packagesPath": "/Users/martin/.nuget/packages/",
+      "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/kushal/.config/NuGet/NuGet.Config"
+        "/Users/martin/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -664,8 +668,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj": {
-              "projectPath": "/Users/kushal/Projects/Assignment/WeatherPro/WeatherPro/WeatherPro.csproj"
+            "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
+              "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj"
             }
           }
         }

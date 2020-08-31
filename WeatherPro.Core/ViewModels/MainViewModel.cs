@@ -20,6 +20,8 @@ namespace WeatherPro.Core.ViewModels
 
             set
             {
+                //TODO: rather use SetProperty()
+
                 _selectedCityName = value;
                 if (_selectedCityName == null)
                     return;
@@ -38,6 +40,8 @@ namespace WeatherPro.Core.ViewModels
 
             set
             {
+                //TODO: rather use SetProperty()
+
                 _pickerDefaultTitle = value;
                 if (_pickerDefaultTitle == null)
                     return;
@@ -52,6 +56,8 @@ namespace WeatherPro.Core.ViewModels
             get => _weather;
             set
             {
+                //TODO: rather use SetProperty()
+
                 _weather = value;
                 RaisePropertyChanged(() => Weather);
             }
@@ -62,7 +68,9 @@ namespace WeatherPro.Core.ViewModels
         {
             get => _showLoading;
             set
-            {             
+            {
+                //TODO: rather use SetProperty()
+
                 _showLoading = value;
                 RaisePropertyChanged(() => ShowLoading);
             }
@@ -71,6 +79,9 @@ namespace WeatherPro.Core.ViewModels
         MvxCommand _currentLocationCommand;
         public MvxCommand CurrentLocationCommand
         {
+            // TODO :: every the getter fires, a new command will be created;
+            // rather (1) instantiate the command in the Constructor or
+            // (2) use lazy instantiation in getter
             get => new MvxCommand(CurrentLocationButtonClicked);
 
             set => _currentLocationCommand = value;
@@ -81,14 +92,17 @@ namespace WeatherPro.Core.ViewModels
             DisplayCurrentLocationWeatherAsync();
         }
 
+        // TODO: where is this used? Consider naming it _placemark so as not to confuse with local params
         Placemark placemark = new Placemark();
         private ILocationService _locationService { get; }
         private IWeatherService _weatherService { get; }
-                
+
+        // TODO: need unit tests for this class
         public MainViewModel(IWeatherService weatherService, ILocationService locationService)
         {
             _locationService = locationService;
             _weatherService = weatherService;
+
             CityList = _weatherService.GetCities();
         }
 
@@ -99,6 +113,7 @@ namespace WeatherPro.Core.ViewModels
             DisplayCurrentLocationWeatherAsync();         
         }
 
+        // TODO :: should be private
         public async void DisplayCurrentLocationWeatherAsync()
         {
             try
@@ -113,6 +128,7 @@ namespace WeatherPro.Core.ViewModels
             }
         }
 
+        // TODO :: should be private
         public async void DisplayCityWeatherAsync(Placemark placemark) {
 
             if (placemark != null)
