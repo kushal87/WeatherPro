@@ -1,1 +1,7 @@
 .vs
+WeatherPro.Android/bin
+WeatherPro.Android/obj
+WeatherPro.Core/bin
+WeatherPro.Core/obj
+WeatherPro/bin
+WeatherPro/obj
