@@ -804,20 +804,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/martin/.nuget/packages/": {}
+    "/Users/kushal/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.UITests/WeatherPro.UITests.csproj",
+      "projectUniqueName": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.UITests/WeatherPro.UITests.csproj",
       "projectName": "WeatherPro.UITests",
-      "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.UITests/WeatherPro.UITests.csproj",
-      "packagesPath": "/Users/martin/.nuget/packages/",
-      "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.UITests/obj/",
+      "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.UITests/WeatherPro.UITests.csproj",
+      "packagesPath": "/Users/kushal/.nuget/packages/",
+      "outputPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.UITests/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/martin/.config/NuGet/NuGet.Config"
+        "/Users/kushal/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"

@@ -7,5 +7,6 @@ namespace WeatherPro.Core.Services
     {
         public Task<Location> GetCurrentLocationAsync();
         public Task<Placemark> GetCityNameAsync(Location location);
+        Placemark GetCityNameAsync(Task<Location> location);
     }
 }

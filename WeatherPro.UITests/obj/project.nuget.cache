@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9mCzxfUPKLjsXAwEu+mi2lEqhtn/Q2W0wgMQosA+TAFqm6voezqKNBeaMEoslvPto2yW7XvCJlY0P+qfHsFxdg==",
+  "dgSpecHash": "Fg0MioVg32Wg2bN6THjM7+WEPvCvY/jNxxI//VVV4XRQxkvOAeykHr/KYXwwWUHDqWIshdX+iJOYFCesIkAAaQ==",
   "success": true,
-  "projectFilePath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.UITests/WeatherPro.UITests.csproj",
+  "projectFilePath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.UITests/WeatherPro.UITests.csproj",
   "expectedPackageFiles": [
-    "/Users/martin/.nuget/packages/mvvmcross/7.0.0/mvvmcross.7.0.0.nupkg.sha512",
-    "/Users/martin/.nuget/packages/mvvmcross.forms/7.0.0/mvvmcross.forms.7.0.0.nupkg.sha512",
-    "/Users/martin/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512",
-    "/Users/martin/.nuget/packages/system.console/4.3.1/system.console.4.3.1.nupkg.sha512",
-    "/Users/martin/.nuget/packages/xamarin.forms/4.6.0.847/xamarin.forms.4.6.0.847.nupkg.sha512",
-    "/Users/martin/.nuget/packages/xamarin.uitest/3.0.7/xamarin.uitest.3.0.7.nupkg.sha512"
+    "/Users/kushal/.nuget/packages/mvvmcross/7.0.0/mvvmcross.7.0.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/mvvmcross.forms/7.0.0/mvvmcross.forms.7.0.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/system.console/4.3.1/system.console.4.3.1.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/xamarin.forms/4.6.0.847/xamarin.forms.4.6.0.847.nupkg.sha512",
+    "/Users/kushal/.nuget/packages/xamarin.uitest/3.0.7/xamarin.uitest.3.0.7.nupkg.sha512"
   ],
   "logs": []
 }

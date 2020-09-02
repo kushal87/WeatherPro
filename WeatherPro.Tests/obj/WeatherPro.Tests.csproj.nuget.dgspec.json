@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj": {}
+    "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj": {}
   },
   "projects": {
-    "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj": {
+    "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj",
+        "projectUniqueName": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
         "projectName": "WeatherPro.Core",
-        "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj",
-        "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/obj/",
+        "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/martin/.config/NuGet/NuGet.Config"
+          "/Users/kushal/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -28,8 +25,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
-                "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj"
+              "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj": {
+                "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj"
               }
             }
           }
@@ -75,20 +72,17 @@
         }
       }
     },
-    "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj": {
+    "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj",
+        "projectUniqueName": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj",
         "projectName": "WeatherPro.Tests",
-        "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/WeatherPro.Tests.csproj",
-        "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Tests/obj/",
+        "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Tests/WeatherPro.Tests.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/martin/.config/NuGet/NuGet.Config"
+          "/Users/kushal/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,11 +93,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj": {
-                "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro.Core/WeatherPro.Core.csproj"
+              "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj": {
+                "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro.Core/WeatherPro.Core.csproj"
               },
-              "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
-                "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj"
+              "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj": {
+                "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj"
               }
             }
           }
@@ -161,20 +155,17 @@
         }
       }
     },
-    "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj": {
+    "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj",
+        "projectUniqueName": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj",
         "projectName": "WeatherPro",
-        "projectPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/WeatherPro.csproj",
-        "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/Projects/ARO/New Starters/Kushal/WeatherPro/obj/",
+        "projectPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/WeatherPro.csproj",
+        "packagesPath": "/Users/kushal/.nuget/packages/",
+        "outputPath": "/Users/kushal/Documents/GitHub/WeatherPro/WeatherPro/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/martin/.config/NuGet/NuGet.Config"
+          "/Users/kushal/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
